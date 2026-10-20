@@ -1,5 +1,7 @@
 # Imaging Predictive Maintenance
 
+[![tests](https://github.com/SamuelJCB/imaging-predictive-maintenance/actions/workflows/tests.yml/badge.svg)](https://github.com/SamuelJCB/imaging-predictive-maintenance/actions/workflows/tests.yml) ![Python 3.12](https://img.shields.io/badge/python-3.12-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 Forecasts **when** a CT or MRI scanner is likely to fail and **which component** will cause it, from operational and environmental telemetry, with a spatial layer that transfers failure risk between hospital sites.
 
 > **Context.** As a Vos Family Global Research Scholar (2025), I studied CT and MRI workflows on site at seven hospitals in India and Singapore and designed a predictive-maintenance pipeline that combines machine learning with a spatial data model. The hospital data from that study is not public. This repository is an independent implementation of the approach on a **synthetic fleet**: 56 scanners across seven cities over three years. Site coordinates are approximate city locations, and no real hospital or device data is included.
